@@ -653,3 +653,12 @@ def overlayMolSubsecs(start_coords,current_coords,subsec_start=0,subsect_end=-1)
                 showticklabels=False),),
     )
     fig.show()
+
+def write_curve_to_file(curve,outfile_name):
+    with open(outfile_name,'w+') as f:
+        for i in range(len(curve)-1):
+            string = ' '.join(map(str,curve[i]))
+            f.write(string)
+            f.write('\n')
+        f.write(' '.join(map(str,curve[-1])))
+        f.close()
