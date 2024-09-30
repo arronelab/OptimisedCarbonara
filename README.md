@@ -1,6 +1,6 @@
 ## Protein Structure Refinement with SAXS and Gradient Descent
 
-This project implements a PyTorch-based model for refining protein structures using a combination of geometric constraints and experimental scattering data. It's designed to optimise molecular conformations by maximizing a likelihood function that incorporates various structural and experimental SAXS factors. Its still very well in-development by Chris Prior (christopher.prior@durham.ac.uk), Arron Bale (arron.n.bale@durham.ac.uk), and myself (josh.j.mckeown@durham.ac.uk). 
+This project implements a PyTorch-based model for refining protein structures using a combination of geometric constraints and experimental scattering data. It's designed to optimise molecular conformations by maximizing a likelihood function that incorporates various structural and experimental SAXS factors. Its still very well in-development by Chris Prior (christopher.prior@durham.ac.uk), Arron Bale (arron.n.bale@durham.ac.uk), and Josh Mckeown (josh.j.mckeown@durham.ac.uk). 
 
 ## Features
 
@@ -25,15 +25,15 @@ see the `requirements.txt` for full list
 
 1. Clone this repository:
    ```
-   git clone https://github.com/mckeownish/al-descente.git
-   cd al-descente
+   git clone https://github.com/arronelab/OptimisedCarbonara.git
+   cd OptimisedCarbonara
    ```
 
 2. Create a new conda environment with the required packages:
    ```
-   conda create --name pasta_descent_env --file requirements.txt
+   conda create --name OptimisedCarbonara_env --file requirements.txt
 
-   conda activate pasta_descent_env
+   conda activate OptimisedCarbonara_env
    ```
 
 
